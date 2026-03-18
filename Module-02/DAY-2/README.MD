@@ -48,9 +48,9 @@ public class A
 }
 ```
 ## OUTPUT:
-Expected    Got 
+Expected     Got 
 
-17          17
+17           17
 
 
 
