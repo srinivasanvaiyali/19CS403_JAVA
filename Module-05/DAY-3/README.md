@@ -19,21 +19,53 @@ To Create a java program to print the sum of two number using getter and setter 
  ```
 /*
 Program to implement a Getter and Setter using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SRINIVASAN V
+RegisterNumber: 212222043008 
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+class Fibonacci {
+    private int count;
 
+    public void setCount(int count) {
+        this.count = count;
+    }
 
+    public int getCount() {
+        return count;
+    }
 
+    public void printSeries() {
+        int n1 = 0, n2 = 1;
+        for (int i = 0; i < count; i++) {
+            System.out.print(n1 + " ");
+            int next = n1 + n2;
+            n1 = n2;
+            n2 = next;
+        }
+    }
+}
 
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Fibonacci fib = new Fibonacci();
 
+        int input = sc.nextInt();
+        fib.setCount(input);
+        fib.printSeries();
 
+        sc.close();
+    }
+}
+```
 ## OUTPUT:
 
+<img width="357" height="238" alt="438031518-3f2c59a9-3be2-4162-af36-f7a26eb2f318" src="https://github.com/user-attachments/assets/f927bacf-351f-467c-83ff-a37bee6490c6" />
 
 
 ## RESULT:
