@@ -22,20 +22,31 @@ III.	Call the displayDetails() method for each student.
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SRINIVASAN V
+RegisterNumber: 212222043008
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+public class Main{
+public static void main (String[] args){
+int num=7;
+find_Oddeven(num);
+}
 
-
-
-
-
-
-
+static void find_Oddeven(int num){
+  if(num%2==0) 
+      System.out.println(num+" is even"); 
+  else 
+      System.out.println(num+" is odd");
+ }
+}
+```
 ## OUTPUT:
+<img width="388" height="183" alt="438653496-8f7cdb15-9d19-4cc3-8d20-2c0a25af9899" src="https://github.com/user-attachments/assets/0c1ab1ca-3e76-4052-9c69-55a8e07c3886" />
+
 
 
 
