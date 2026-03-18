@@ -21,20 +21,44 @@ b.	Create an object of ArrayOperation and call findMax() by passing the ArrayDat
  ```
 /*
 Program to implement a HAS-A RelationShip
-Developed by: 
-RegisterNumber:  
+Developed by: SRINIVASAN V
+RegisterNumber: 212222043008  
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+public class TriangleArea {
 
+    private double width;
+    private double height;
 
+    public void setWidth(double width) {
+        this.width = width;
+    }
 
+    public void setHeight(double height) {
+        this.height = height;
+    }
 
+    public double getArea() {
+        return width * height;
+    }
 
-
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        TriangleArea triangle = new TriangleArea();
+        double w = sc.nextDouble(); 
+        double h = sc.nextDouble(); 
+        triangle.setWidth(w);
+        triangle.setHeight(h);
+        System.out.println((int)triangle.getArea());
+    }
+}
+```
 ## OUTPUT:
+<img width="339" height="372" alt="438033209-6761079b-9734-42e3-bbcd-705e07963810" src="https://github.com/user-attachments/assets/078dea4d-9c1c-4441-9566-719c6b019243" />
 
 
 
