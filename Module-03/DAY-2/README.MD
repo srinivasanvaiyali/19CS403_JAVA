@@ -51,6 +51,15 @@ public static void main(String[] args) {
 }
 ```
 ## OUTPUT:
+```
+Input         Expected       Got
+
+Hello         Hello Java     Hello Java
+Java 
+
+Hi            Hi Welcome     Hi Welcome
+Welcome
+```
 
 
 
