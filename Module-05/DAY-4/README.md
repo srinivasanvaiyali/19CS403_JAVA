@@ -19,20 +19,36 @@
  ```
 /*
 Program to implement a IS-A RELATIONSHIP AND HAS-A RELATIONSHIP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SRINIVASAN V
+RegisterNumber: 212222043008  
 */
 ```
 
 ## Sourcecode.java:
+```
+class Animal {
+    public void eat() {
+        System.out.println("I can eat");
+    }
+}
 
+class Person extends Animal {
+    public void name() {
+        System.out.println("My name is Rohu");
+    }
+}
 
-
-
-
-
-
+public class Main extends Person {
+    public static void main(String[] args) {
+        Main obj = new Main();
+        obj.name();
+        obj.eat();
+    }
+}
+```
 ## OUTPUT:
+<img width="434" height="196" alt="438032100-1846d70a-097b-4b4d-a830-f0f1da459732" src="https://github.com/user-attachments/assets/89e00fdc-4b23-4e9e-90f1-1fb93fa986a9" />
+
 
 
 
